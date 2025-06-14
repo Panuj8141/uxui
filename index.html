@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agrawal Trading Co.</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body data-page="home">
+
+  <header>
+    <h1>Agrawal Trading Co.</h1>
+    <p class="tagline">From Disposable to Decorations - India's trusted supply store.</p>
+  </header>
+
+  <section class="search-container">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </section>
+
+  <section class="product-section" id="productList">
+    <!-- <div class="product-card">
+      <h3>Plastic Plates</h3>
+      <p>Durable disposable plates for parties and events.</p>
+      <p class="price">₹120 / pack</p>
+    </div>
+    <div class="product-card">
+      <h3>Paper Cups</h3>
+      <p>Eco-friendly paper cups for hot and cold beverages.</p>
+      <p class="price">₹60 / pack</p>
+    </div>
+    <div class="product-card">
+      <h3>Birthday Decorations</h3>
+      <p>Complete kits with balloons, banners, and more.</p>
+      <p class="price">₹250 / set</p>
+    </div>
+    <div class="product-card">
+      <h3>Plastic Spoons</h3>
+      <p>High-quality disposable cutlery for all occasions.</p>
+      <p class="price">₹90 / pack</p>
+    </div>
+    <div class="product-card">
+      <h3>Aluminium Trays</h3>
+      <p>Sturdy trays ideal for catering and food delivery.</p>
+      <p class="price">₹180 / set</p>
+    </div>
+    <div class="product-card">
+      <h3>Gift Wrapping Sheets</h3>
+      <p>Beautiful wrapping paper in assorted designs.</p>
+      <p class="price">₹30 / sheet</p>
+    </div>
+    <div class="product-card">
+      <h3>Fairy Lights</h3>
+      <p>LED string lights for decorative purposes.</p>
+      <p class="price">₹220 / pack</p>
+    </div>
+    <div class="product-card">
+      <h3>Disposable Gloves</h3>
+      <p>Safe, hygienic, and convenient for food service.</p>
+      <p class="price">₹75 / box</p>
+    </div> -->
+  </section>
+
+  <footer>
+    &copy; 2025 Agrawal Trading Co. | All Rights Reserved
+  </footer>
+
+  <script>
+    //main script
+    const searchInput = document.getElementById('searchInput');
+    const products = document.querySelectorAll('.product-card');
+    
+    searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+      products.forEach(product => {
+    const text = product.innerText.toLowerCase();
+    product.style.display = text.includes(query) ? 'block' : 'none';
+      });
+    });
+
+  </script>
+    <script src="script.js"></script>
+</body>
+</html>

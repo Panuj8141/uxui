@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Niche - Agrawal Trading Co.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --dark-green: #2F4A39;
+      --light-cream: #F4EFDF;
+      --olive-green: #617A59;
+      --sage: #A3B49F;
+      --beige: #E9E4D4;
+      --charcoal: #1F1F1F;
+      --pale-cream: #FCFAF4;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Cinzel', serif;
+    }
+
+    body {
+      background-color: var(--light-cream);
+      color: var(--dark-green);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: var(--dark-green);
+      color: var(--pale-cream);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: var(--beige);
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .search-container {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .search-container input {
+      width: 60%;
+      max-width: 500px;
+      padding: 0.7rem;
+      font-size: 1rem;
+      border: 2px solid var(--olive-green);
+      border-radius: 8px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .product-card {
+      background-color: var(--beige);
+      border: 1px solid var(--sage);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(47,74,57,0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 16px rgba(47,74,57,0.3);
+    }
+
+    /* .product-image {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    } */
+     .image-wrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* or 1 / 1, or 3 / 2 depending on your common format */
+  background-color: var(--pale-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+    .product-info {
+      padding: 1rem;
+    }
+
+    .product-info h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--dark-green);
+    }
+
+    .product-info p {
+      font-size: 0.95rem;
+      color: var(--charcoal);
+      margin-bottom: 0.75rem;
+      min-height: 48px;
+    }
+
+    .price {
+      font-weight: 700;
+      color: var(--olive-green);
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background-color: var(--dark-green);
+      color: var(--pale-cream);
+      text-align: center;
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+      margin-top: auto;
+    }
+
+    /* Responsive tweak */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      main {
+        padding: 1rem;
+      }
+      .product-info h3 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body data-page="carry-and-waste-solution">
+
+  <header>
+    <h1>Carry& Waste Solution</h1>
+    <p>Eco and utility bags, garbage liners, and wraps — for smart storage and clean disposal.</p>
+  </header>
+  <section class="search-container">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </section>
+  <main>
+    <div class="product-grid">
+      
+      <!-- Add more product cards as needed -->
+    </div>
+  </main>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div class="modal-header" id="modalTitle">Title</div>
+      <div id="modalBody">Content goes here...</div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Agrawal Trading Co. All rights reserved.
+  </footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>

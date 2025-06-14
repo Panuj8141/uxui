@@ -1,0 +1,238 @@
+[
+{
+    "name": "Paper glass",
+    "image": "product-images/Paper glass.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "35ml",
+          "Retail": "₹11 [48pcs/pack]",
+          "Wholesale": "₹850-950 per box"
+        },
+        {
+          "Sizes": "45ml",
+          "Retail": "₹11 [48pcs/pack]",
+          "Wholesale": "₹850-950 per box"
+        },
+        {
+          "Sizes": "55ml",
+          "Retail": "₹11-12 [50pcs/pack]",
+          "Wholesale": "₹1000 per box"
+        },
+        {
+          "Sizes": "65ml",
+          "Retail": "₹14-15 [50pcs/pack]",
+          "Wholesale": "₹1250-1400 per box"
+        },
+        {
+          "Sizes": "70ml",
+          "Retail": "₹17 [50pcs/pack]",
+          "Wholesale": "₹1400 per box"
+        },
+        {
+          "Sizes": "80ml",
+          "Retail": "₹18-20 [50pcs/pack]",
+          "Wholesale": "₹1600-1800 per box"
+        },
+        {
+          "Sizes": "100ml",
+          "Retail": "₹30 [50pcs/pack]",
+          "Wholesale": "24 per pack|₹2200 per box"
+        },
+        {
+          "Sizes": "150ml",
+          "Retail": "₹35 [50pcs/pack]",
+          "Wholesale": "30 per pack|₹2500 per box"
+        },
+        {
+          "Sizes": "150ml printed",
+          "Retail": "₹40 [50pcs/pack]",
+          "Wholesale": "₹38 per pack"
+        },
+        {
+          "Sizes": "210ml",
+          "Retail": "₹45 [50pcs/pack]",
+          "Wholesale": "₹35-30 per pack"
+        },
+        {
+          "Sizes": "250ml",
+          "Retail": "₹50 [50pcs/pack]",
+          "Wholesale": "₹35-40 per pack"
+        }
+      ],
+      "location": "Behind Rack No-3 [35ml , 45ml , 55ml , 65ml , 70ml , 80ml]"
+    }
+  },
+  {
+    "name": "Eco Panni jhabla bag",
+    "image": "product-images/eco panni jhabla bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "8x109x1310x1413x1616x2020x26",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        }
+      ],
+      "location": "Rack No-2 2nd khacha",
+      "extra": "8x10"
+    }
+  },
+  {
+    "name": "Eco Panni Milk Bags",
+    "image": "product-images/eco panni milk bags.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "4x65x86x97x118x14",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        }
+      ],
+      "location": "Rack No-2 2nd khacha",
+      "extra": "4x6"
+    }
+  },
+  {
+    "name": "Paper nashta plates",
+    "image": "product-images/paper nashta plates.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹10 per pack[20-22pcs]",
+          "Wholesale": "₹7-8 per pack[20-22pcs]"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹15 per pack[20-22 pcs]",
+          "Wholesale": "₹10-12 per pack[20-22 pcs]"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹25 per pack[20-22 pcs]",
+          "Wholesale": "₹18-20 per pack[20-22 pcs]"
+        }
+      ],
+      "location": "Rack No-1 2nd khacha + Container ke boxes ke baju me goni [bathroom oposite side]"
+    }
+  },
+  {
+    "name": "Silver Pouch(3sizes)",
+    "image": "product-images/silver pouch (3 sizes).jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "4x6",
+          "Retail": "₹40 per pack",
+          "Wholesale": "₹270 per Kg"
+        },
+        {
+          "Sizes": "5x7",
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹270 per kg"
+        },
+        {
+          "Sizes": "6x8",
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹270 per kg"
+        }
+      ],
+      "location": "Rack 3 ke peeche boxes ke sath mai Goni"
+    }
+  },
+  {
+    "name": "Silver container",
+    "image": "product-images/silver container.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "250ml",
+          "Retail": "₹3 per piece",
+          "Wholesale": "₹180 per pack[100pcs]"
+        },
+        {
+          "Sizes": "450ml",
+          "Retail": "₹4 per piece",
+          "Wholesale": "₹230 per pack[100 pcs]"
+        },
+        {
+          "Sizes": "600ml Round",
+          "Retail": "₹5 per piece",
+          "Wholesale": "₹270 per pack[100 pcs]"
+        }
+      ],
+      "location": "Container:Rack No-2 ke baju me jaal ke peeche boxes"
+    }
+  },
+  {
+    "name": "Paper bags",
+    "image": "product-images/paper bags.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Colours",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Colours": "White",
+          "Retail": "₹110 per Kg",
+          "Wholesale": "₹110 per Kg"
+        },
+        {
+          "Colours": "Brown",
+          "Retail": "₹90 per Kg",
+          "Wholesale": "₹90 per Kg"
+        }
+      ],
+      "location": "Rack No-3 2nd khacha"
+    }
+  }
+  
+
+]
