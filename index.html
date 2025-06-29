@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agrawal Trading Co.</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body data-page="home">
+
+  <header>
+    <h1>Agrawal Trading Co.</h1>
+    <p class="tagline">
+      From Disposable to Decorations - India's trusted supply store.
+    </p>
+    <div class="user-icon">
+    </div>
+    <div class="user-dashboard" id="userDashboard">
+      <p>Welcome, User!</p>
+      <span class="logout">Log out</span>
+    </div>
+    
+
+  </header>
+
+  <section class="search-container">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </section>
+
+  <section class="product-section" id="productList">
+   
+  </section>
+
+  <footer>
+    &copy; 2025 Agrawal Trading Co. | All Rights Reserved
+  </footer>
+
+  <script>
+    //main script
+    const searchInput = document.getElementById('searchInput');
+    const products = document.querySelectorAll('.product-card');
+    
+    searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+      products.forEach(product => {
+    const text = product.innerText.toLowerCase();
+    product.style.display = text.includes(query) ? 'block' : 'none';
+      });
+    });
+
+  </script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
